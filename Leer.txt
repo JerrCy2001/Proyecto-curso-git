@@ -1,0 +1,15 @@
+NOTA:
+
+Recuerda que cuando quieras mostrar el formulario en la página, 
+debes poner lo siguiente: 
+localhost/nombredelproyecto.
+
+Por ejemplo:
+
+localhost/RegistroDatosAjax(Método Ajax)
+
+localhost/RegistroDatosAjax(Método Post)
+
+Y cada carpeta de cada proyecto, sacarla de esta carpeta llamada
+'Formulario con método ajax y método Post', y 
+ponerle directamente en la carpeta htdocs.

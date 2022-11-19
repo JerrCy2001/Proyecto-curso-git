@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="estilos.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="page-header bg-success text-white text-center">
+    <span class="h4">Registro de clientes</span>
+  </div>
+
+  <form action="#" method="POST" style="width:25%;margin:0 auto;">
+
+    <fieldset>
+
+      <legend class="text-center header text-success">Datos personales</legend>
+      <div class="form-group">
+
+        <label for="nom">Nombre</label>
+        <input type="text" class="form-control" id="nombre">
+      </div>
+      <div class="form-group">
+
+        <label for="email">Correo:</label>
+        <input type="text" class="form-control" id="correo">
+      </div>
+      <div class="form-group">
+
+        <label for="">Teléfono</label>
+        <input type="text" class="form-control" id="telefono">
+      </div>
+      <div class="form-group">
+
+        <label for="">Dirección</label>
+        <input type="text" class="form-control" id="direccion">
+      </div>
+      <div class="form-group">
+        <div class="checkbox"></div>
+
+        <label for="">Recordarme</label>
+        <input type="checkbox">
+      </div>
+      
+
+    </div>
+
+    <div class="form-group">
+      <input type="button"  id="Enviar" class="btn btn-primary  form-control" value="Guardar">
+    </div>
+    <div class="form-group">
+
+      <div id="resultado" style="background-color:#aaa;width:100%;" class=""></div>
+
+      <input type="button" class="btn btn-success" style="display:none;width:100%;" id="boton1" value="Limpiar">
+
+      
+
+    </div>
+
+  </fieldset>
+  
+
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="codigo.js"></script>
+
+</body>
+</html>
